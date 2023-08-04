@@ -17,5 +17,11 @@ export const USERS_MESSAGES = {
   CONFIRM_PASSWORD_DOES_NOT_MATCH: 'Password confirmation does not match password',
   DATE_OF_BIRTH_INVALID: 'Invalid date format. Expected ISO8601 format for date_of_birth (e.g., YYYY-MM-DD)',
   LOGIN_SUCCESS: 'Login success',
-  REGISTER_SUCCESS: 'Register success'
+  REGISTER_SUCCESS: 'Register success',
+  ACCESS_TOKEN_IS_REQUIRED: 'Access token is required',
+  REFRESH_TOKEN_IS_REQUIRED: 'Refresh token is required',
+  REFRESH_TOKEN_IS_INVALID: 'Refresh token is invalid',
+  REFRESH_TOKEN_MUST_BE_A_STRING: 'Refresh token must be a string',
+  USED_REFRESH_TOKEN_OR_NOT_EXIST: 'Used refresh token or not exist',
+  LOGOUT_SUCCESS: 'Logout success'
 } as const
